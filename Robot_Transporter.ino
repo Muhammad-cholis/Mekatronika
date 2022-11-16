@@ -26,7 +26,6 @@ void setup()
   pinMode(enB, OUTPUT);
 
   myservo1.attach(12);
-  myservo2.attach(13);
   Serial.begin(9600);
 }
 void loop() {
